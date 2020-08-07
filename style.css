@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 50%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0 50px 0;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.column{
+    width: 50%;
+    text-align: center;
+}
+.column button{
+    font-family: 'Permanent Marker', cursive;
+    width: 60%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.column button:last-of-type{
+    margin-bottom: 0;
+}
+#red{
+    background-color: red;
+}
+#magenta{
+    background-color: #e36fda;
+}
+#blue{
+    background-color: #0e4bd7;
+}
+#cyan{
+    background-color: #58c4ce;
+}
+#green{
+    background-color: #48da95;
+}
+#lightgreen{
+    background-color: #c8db6f;
+}
+#orange{
+    background-color: #ea9808;
+}
