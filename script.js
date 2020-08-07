@@ -165,6 +165,9 @@ function toggle() {
     } else {
         text.innerHTML = "HIGH!";
     }
+
+    var element=document.body;
+    element.classList.toggle("color");
 }
 function playBeat() {
     document.getElementById("beat1").play();

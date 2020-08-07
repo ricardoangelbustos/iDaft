@@ -65,6 +65,9 @@ body{
     background-color: white;
     color: black;
 }
+#red, #magenta, #blue, #cyan, #green, #lightgreen, #orange{
+    transition: 500ms;
+}
 #red{
     background-color: red;
 }
@@ -85,6 +88,67 @@ body{
 }
 #orange{
     background-color: #ea9808;
+}
+.color #red, .color #magenta, .color #blue, .color #cyan, .color #green, .color #lightgreen, .color #orange{
+    background-color: black;
+    border: 1px solid white;
+    transition: 500ms;
+}
+.color #red{
+    color: red;
+}
+.color #red:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px red;
+    -moz-box-shadow: 0px 0px 20px 0px red;
+    box-shadow: 0px 0px 20px 0px red;
+}
+.color #magenta{
+    color: #e36fda;
+}
+.color #magenta:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #e36fda;
+    -moz-box-shadow: 0px 0px 20px 0px #e36fda;
+    box-shadow: 0px 0px 20px 0px #e36fda;
+}
+.color #blue{
+    color: #0e4bd7;
+}
+.color #blue:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #0e4bd7;
+    -moz-box-shadow: 0px 0px 20px 0px #0e4bd7;
+    box-shadow: 0px 0px 20px 0px #0e4bd7;
+}
+.color #cyan{
+    color: #58c4ce;
+}
+.color #cyan:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #58c4ce;
+    -moz-box-shadow: 0px 0px 20px 0px #58c4ce;
+    box-shadow: 0px 0px 20px 0px #58c4ce;
+}
+.color #green{
+    color: #48da95;
+}
+.color #green:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #48da95;
+    -moz-box-shadow: 0px 0px 20px 0px #48da95;
+    box-shadow: 0px 0px 20px 0px #48da95;
+}
+.color #lightgreen{
+    color: #c8db6f;
+}
+.color #lightgreen:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #c8db6f;
+    -moz-box-shadow: 0px 0px 20px 0px #c8db6f;
+    box-shadow: 0px 0px 20px 0px #c8db6f;
+}
+.color #orange{
+    color: #ea9808;
+}
+.color #orange:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px #ea9808;
+    -moz-box-shadow: 0px 0px 20px 0px #ea9808;
+    box-shadow: 0px 0px 20px 0px #ea9808;
 }
 @media (max-width: 768px){
     .container{
