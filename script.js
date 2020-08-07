@@ -1,5 +1,4 @@
 function playWorkIt1(){
-    /* document.getElementById("workit1").load(); */
     document.getElementById("workit1").play();
 }
 function playMakeIt1(){
@@ -165,5 +164,14 @@ function toggle() {
         text.innerHTML = "LOW!";
     } else {
         text.innerHTML = "HIGH!";
+    }
+}
+function playBeat() {
+    document.getElementById("beat1").play();
+    document.getElementById("beat1").currentTime = 0;
+
+    var beat = document.getElementById("beat");
+    if (beat.innerHTML.match("START THE BEAT!")) {
+        beat.innerHTML = "RESTART THE BEAT!";
     }
 }
