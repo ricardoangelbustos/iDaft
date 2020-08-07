@@ -2,18 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 body{
     background-color: black;
 }
 .container{
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
-    flex-direction: row;
-    padding: 50px 0 50px 0;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
     border: 1px solid white;
     border-radius: 20px;
+}
+.up{
+    display: flex;
 }
 .column{
     width: 50%;
@@ -28,9 +32,38 @@ body{
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    transition: 200ms;
 }
 .column button:last-of-type{
     margin-bottom: 0;
+}
+.column button:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(13,199,255,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(13,199,255,1);
+    box-shadow: 0px 0px 20px 0px rgba(13,199,255,1);
+}
+.down{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.down button{
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    width: 60%;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.down button:hover{
+    background-color: white;
+    color: black;
 }
 #red{
     background-color: red;
